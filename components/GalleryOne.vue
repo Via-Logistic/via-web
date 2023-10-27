@@ -5,7 +5,7 @@
                 <!-- Section Title Start -->
                 <div class="col-xl-3 col-md-12">
                     <div class="section-title mb-0">
-                        <h2 class="title">latest Works</h2>
+                        <h2 class="title">OUR PRODUCT</h2>
                     </div>
                 </div>
                 <!-- Section Title End -->
@@ -17,14 +17,9 @@
                         <!-- Tabs Header Start -->
                         <ul class="tabs-header-nav nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#architecture"  @click.prevent="setActive('architecture')" :class="{ active: isActive('architecture') }">Architecture</a>
+                                <a class="" href="#architecture"  @click.prevent="setActive('architecture')" :class="{ active: isActive('architecture') }"></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#interior" @click.prevent="setActive('interior')" :class="{ active: isActive('interior') }">Interior</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#landscape" @click.prevent="setActive('landscape')" :class="{ active: isActive('landscape') }">Landscape</a>
-                            </li>
+                         
                         </ul>
                         <!-- Tabs Header End -->
                     </div>
@@ -56,13 +51,12 @@
                             <div class="single-project-slide">
                                 <div class="thumb">
                                     <nuxt-link to="/project" class="image">
-                                        <img class="fit-image" src="/images/gallery/1-1.jpg" alt="Product" />
+                                        <img class="fit-image" src="/images/gallery/feed-product.png" alt="Product" />
                                     </nuxt-link>
                                 </div>
                                 <div class="content">
-                                    <h4 class="subtitle">Residential</h4>
                                     <h3 class="title">
-                                        <nuxt-link to="/project">Cubic Villa</nuxt-link>
+                                        <nuxt-link to="/project">FEED PRODUCT</nuxt-link>
                                     </h3>
                                 </div>
                             </div>
@@ -72,13 +66,13 @@
                             <div class="single-project-slide">
                                 <div class="thumb">
                                     <nuxt-link to="/project" class="image">
-                                        <img class="fit-image" src="/images/gallery/1-2.jpg" alt="Product" />
+                                        <img class="fit-image" src="/images/gallery/broken-corn.jpg" alt="Product" />
                                     </nuxt-link>
                                 </div>
                                 <div class="content">
-                                    <h4 class="subtitle">Architecture</h4>
+                                    
                                     <h3 class="title">
-                                        <nuxt-link to="/project">Culture House</nuxt-link>
+                                        <nuxt-link to="/project">OILSEEDS</nuxt-link>
                                     </h3>
                                 </div>
                             </div>
@@ -88,29 +82,12 @@
                             <div class="single-project-slide">
                                 <div class="thumb">
                                     <nuxt-link to="/project" class="image">
-                                        <img class="fit-image" src="/images/gallery/1-3.jpg" alt="Product" />
+                                        <img class="fit-image" src="/images/gallery/pulses.png" alt="Product" />
                                     </nuxt-link>
                                 </div>
                                 <div class="content">
-                                    <h4 class="subtitle">Commercial</h4>
                                     <h3 class="title">
-                                        <nuxt-link to="/project">ABC Financial Bank</nuxt-link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-                        <swiper-slide>
-                            <div class="single-project-slide">
-                                <div class="thumb">
-                                    <nuxt-link to="/project" class="image">
-                                        <img class="fit-image" src="/images/gallery/1-4.jpg" alt="Product" />
-                                    </nuxt-link>
-                                </div>
-                                <div class="content">
-                                    <h4 class="subtitle">Interior</h4>
-                                    <h3 class="title">
-                                        <nuxt-link to="/project">B6-No.5 OLA Tower</nuxt-link>
+                                        <nuxt-link to="/project">PULSES</nuxt-link>
                                     </h3>
                                 </div>
                             </div>
@@ -124,23 +101,16 @@
                                     </nuxt-link>
                                 </div>
                                 <div class="content">
-                                    <h4 class="subtitle">Interior</h4>
                                     <h3 class="title">
-                                        <nuxt-link to="/project">B6-No.5 OLA Tower</nuxt-link>
+                                        <nuxt-link to="/project">EXOTIC</nuxt-link>
                                     </h3>
                                 </div>
                             </div>
                         </swiper-slide>
+
+                        
                     </swiper>
 
-                    <!-- Swiper Navigation Start -->
-                    <div class="tab-carousel-prev tab-carousel-btn">
-                        <i class="icofont-thin-left"></i>
-                    </div>
-                    <div class="tab-carousel-next tab-carousel-btn">
-                        <i class="icofont-thin-right"></i>
-                    </div>
-                    <!-- Swiper Navigation End -->
                 </div>
                 <div class="tab-pane fade" :class="{ 'active show': isActive('interior') }" id="interior">
                     <swiper
