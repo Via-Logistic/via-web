@@ -1,6 +1,6 @@
 <template>
     <div class="main-container">
-        <TheHeader />
+        <TheHeaderTwo />
         <OffCanvasMobileMenu />
         <BannerOne />
         <AboutOne />
@@ -9,7 +9,7 @@
         <VideoCallToAction />
         <TeamOne />
         <Testimonial />
-        <BrandLogoCarousel />
+        <!-- <BrandLogoCarousel /> -->
         <Footer />
     </div>
 </template>

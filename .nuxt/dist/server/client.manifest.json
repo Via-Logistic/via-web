@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/yakupsari/Documents/Github/check/via-web/node_modules/nuxt/dist/app/entry.mjs": {
+  "/Applications/MAMP/htdocs/via-web/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/Users/yakupsari/Documents/Github/check/via-web/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/Applications/MAMP/htdocs/via-web/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

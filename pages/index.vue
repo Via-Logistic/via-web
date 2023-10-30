@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <TheHeader />
+    <TheHeaderTwo />
     <OffCanvasMobileMenu />
     <HeroOne />
     <AboutOne />
