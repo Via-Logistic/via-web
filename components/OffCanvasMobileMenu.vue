@@ -8,7 +8,11 @@
       <div class="mobile-header">
         <div class="logo">
           <nuxt-link to="/">
-            <img src="/images/logo/logo-white.png" alt="site logo" />
+            <img
+              src="/images/logo/logo-white.png"
+              height="75px"
+              alt="site logo"
+            />
           </nuxt-link>
         </div>
         <button
