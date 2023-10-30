@@ -22,7 +22,6 @@
                                     <div class="icon">
                                         <i :class="service.icon"></i>
                                     </div>
-                                    <nuxt-link to="/about" class="more">more details</nuxt-link>
                                 </div>
                             </div>
                         </div>
@@ -39,23 +38,23 @@
             return {
                 services: [
                     {
-                        title: "profressional and dedicate team",
-                        desc: "Building architectures with modern technology.",
+                        title: "Quality and Reliability",
+                        desc: "We promise reliability and excellence to our customers.",
                         icon: "icofont-labour"
                     },
                     {
-                        title: "unique design",
-                        desc: "Bring the beautifully for your house. Just enjoy!",
+                        title: "Flexible and Customized Solutions",
+                        desc: "We offer customized logistics solutions",
                         icon: "icofont-ruler-compass-alt"
                     },
                     {
-                        title: "affordable and flexiable",
-                        desc: "Bring nature in your house. Health is important",
+                        title: "On Time and Safe Delivery",
+                        desc: "We ensure that they receive their products on time",
                         icon: "icofont-credit-card"
                     },
                     {
-                        title: "24/7 support",
-                        desc: "Consulting solutions and make plan to renovation",
+                        title: "Customer Satisfaction Oriented Service",
+                        desc: "We would be happy to be with you to solve your problems.",
                         icon: "icofont-live-support"
                     }
                 ]

@@ -26,8 +26,8 @@
             return {
                 members: [
                     {
-                        name: "Edward Eric",
-                        position: "CEO Founder",
+                        name: "Name Surname",
+                        position: "Title",
                         imgSrc: "/images/team/team-1.jpg",
                         socials: [
                             {
@@ -49,8 +49,8 @@
                         ]
                     },
                     {
-                        name: "Tom Holland",
-                        position: "Architect & Project Management",
+                        name: "Name Surname",
+                        position: "Title",
                         imgSrc: "/images/team/team-2.jpg",
                         socials: [
                             {
@@ -72,8 +72,8 @@
                         ]
                     },
                     {
-                        name: "Laura Erakovic",
-                        position: "Executive & Marketing Management",
+                        name: "Name Surname",
+                        position: "Title",
                         imgSrc: "/images/team/team-3.jpg",
                         socials: [
                             {

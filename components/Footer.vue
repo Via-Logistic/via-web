@@ -6,13 +6,13 @@
           <!-- Footer Logo Start -->
           <div class="footer-logo">
             <nuxt-link to="/">
-              <img src="/images/logo/logo-white.png" alt="Logo Black" />
+              <img class="w-50" src="/images/logo/logo-white.png" alt="Logo Black" />
             </nuxt-link>
           </div>
           <!-- Footer Logo End -->
 
           <!-- Footer Nav Start -->
-          <ul class="footer-nav mb-n3">
+          <!-- <ul class="footer-nav mb-n3">
             <li class="mb-3">
               <nuxt-link to="/">Home</nuxt-link>
             </li>
@@ -28,14 +28,14 @@
             <li class="mb-3">
               <nuxt-link to="/contact">Contact</nuxt-link>
             </li>
-          </ul>
+          </ul> -->
           <!-- Footer Nav End -->
 
           <!-- Contact Info Start -->
           <div class="contact-info">
-            Your address goes here<br />
+            St. Privokzalnaya 4/1, Rostov Region, Rostov-on-Don, 344034<br />
             <a href="tel:0123456789">0123456789</a> <br />
-            <a href="mailto:demo@example.com">demo@example.com</a>
+            <a href="mailto:info@vialogistic.ru">info@vialogistic.ru</a>
           </div>
           <!-- Contact Info End -->
 
@@ -62,11 +62,11 @@
           <!-- Footer Social Icons End -->
 
           <!-- Copyright Start -->
-          <div class="copyright">
+          <!-- <div class="copyright">
             © 2023 <span>GOTHIC</span> Made with
             <i class="icofont-heart-alt text-danger"></i> by
             <a href="#">HasThemes</a>
-          </div>
+          </div> -->
           <!-- Copyright End -->
         </div>
       </div>
