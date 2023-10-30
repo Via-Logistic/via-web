@@ -44,8 +44,10 @@
                 class="mobile-menu-toggle"
                 @click="mobiletoggleClass('addClass', 'show-mobile-menu')"
               >
+              
                 <span>menu</span>
                 <button class="toggle">
+                  
                   <i class="icon-top"></i>
                   <i class="icon-middle"></i>
                   <i class="icon-bottom"></i>

@@ -3,10 +3,10 @@
         <TheHeaderTwo />
         <OffCanvasMobileMenu />
         <BlogDetailsPost />
-        <RelatedBlogPost />
+        <!-- <RelatedBlogPost /> -->
 
         <!-- Old New Post Section Start -->
-        <div class="old-new-post-section overflow-hidden">
+        <!-- <div class="old-new-post-section overflow-hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -17,10 +17,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Old New Post Section End -->
 
-        <CommentForm />
+        <!-- <CommentForm /> -->
         <Footer />
     </div>
 </template>

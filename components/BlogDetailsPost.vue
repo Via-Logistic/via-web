@@ -1,7 +1,7 @@
 <template>
     <div class="blog-details-wrapper">
         <div class="blog-detils-image">
-            <img class="fit-image" src="/images/news/blog/large-blog.jpg" alt="Project">
+            <img class="fit-image" src="/images/news/blog/5.jpg" alt="Project">
         </div>
 
         <div class="section-padding-top">
@@ -16,12 +16,12 @@
                                 <ul class="page-breadcrumb">
                                     <li><n-link to="/">Home</n-link></li>
                                     <li><n-link to="/blog">Blog</n-link></li>
-                                    <li>Nordic Interior STyle</li>
+                                    <li>Pulses are Heavy Hitters for UN Sustainable Development Goals</li>
                                 </ul>
                                 <!-- Page Breadcrumbs End -->
 
                                 <!-- Title Start -->
-                                <h1 class="title">Nordic Interior Style</h1>
+                                <h1 class="title">Pulses are Heavy Hitters for UN Sustainable Development Goals</h1>
                                 <!-- Title End -->
 
                                 <!-- Info List Start -->
@@ -32,40 +32,44 @@
                                 <!-- Info List End -->
 
                                 <!-- Big Text Start -->
-                                <div class="big-text">To mark the first UK show of artist <br> Henri Barande, graphic designer Alex Maxell and German studio Schultzschultz have created <br> The Lodge Wooden</div>
+                                <div class="big-text">Pushing toward the goal line </div>
                                 <!-- Big Text End -->
 
-                                <p>This response is important for our ability to learn from mistakes, but it also <br> gives rise to self-criticism, because it is part of the threat-protection system. In other words, what keeps us safe can go too far, and keep us too safe. In fact <br> it can trigger self-censoring.</p>
+                                <p>Victory will be a lot easier to achieve for the United Nations Sustainable Development Goals in a world where people grow and eat more chickpeas, lentils, beans, and other pulse crops. High-protein, low-fat, high-fiber pulse grains are heavy hitters for human health and nutrition and these plants are real team players when it comes to boosting soil fertility.</p>
 
                                 <!-- List Style One Start -->
-                                <ul class="list-style-one">
+                                <!-- <ul class="list-style-one">
                                     <li>Welsh novelist Sarah Waters sums it up eloquently</li>
                                     <li>In their classic book, Creativity in Business, based on a popular course they co-taught</li>
                                     <li>Novelist and screenwriter Steven Pressfield</li>
                                     <li>A possible off-the-wall idea or solution appears like a blip and disappears without us</li>
-                                </ul>
+                                </ul> -->
                                 <!-- List Style One End -->
 
                                 <!-- Sub Title Start -->
-                                <h3 class="sub-title">Defaulting to Mindfulness</h3>
+                                <!-- <h3 class="sub-title">Defaulting to Mindfulness</h3> -->
                                 <!-- Sub Title End -->
 
-                                <p>Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. <br>I knew everything…been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.</p>
+                                <p>Pulse grains have been recognized for their ‘Most Valuable Player’ role in nourishing children at risk of stunting during the first 1000 days of life, in reducing chronic diseases such as diabetes and heart disease, in combating obesity, and in building a diverse microbiome. With two to three times as much protein as many cereals, pulses are big winners for communities with protein-deficient diets. With thirteen different types of pulses available, farmers can pull from a deep bench when they add pulses to their cropping systems to reduce the impacts of pests, diseases, and weeds as well as weather extremes, while gaining a new source of income. This is starting to sound a lot like Sustainable Development Goals 2 and 3 that call for food security, sustainable agriculture, and better human health.
+
+But pulses also bring a lot to the field for the match-up with climate change. By ‘fixing’ atmospheric nitrogen, they reduce fertilizer needs across the whole crop cycle and lower greenhouse gas footprints. Many pulse crops are adapted to arid growing conditions and can tolerate drought stress better than most other crops, an important skill in a changing climate. They are definitely on the roster for Sustainable Development Goal 13.
+
+</p>
 
                                 <!-- BlockQuote -->
-                                <blockquote class="blockquote">
+                                <!-- <blockquote class="blockquote">
                                     <p>Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</p>
                                     <footer class="blockquote-footer">
                                         <h2 class="title-name">John Doe</h2>
                                         <h4 class="title-desig">Project Director</h4>
                                     </footer>
-                                </blockquote>
+                                </blockquote> -->
                                 <!-- End BlockQuote -->
 
-                                <p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive. </p>
+                                <!-- <p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive. </p> -->
 
                                 <!-- Post Share Options Start -->
-                                <div class="post-share-options">
+                                <!-- <div class="post-share-options">
                                     <div class="post-share-inner">
                                         <div class="post-title">Tags:</div>
                                         <ul class="tags">
@@ -88,7 +92,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Post Share Options End -->
 
                             </div>

@@ -1,6 +1,11 @@
+
 <template>
+
+    
     <div class="mobile-navigation">
+        
         <nav class="offcanvas-navigation" id="offcanvas-navigation">
+            
             <ul>
                 <li class="menu-item-has-children">
                     <nuxt-link to="/">Home</nuxt-link>

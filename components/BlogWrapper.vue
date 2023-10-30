@@ -47,39 +47,12 @@
                 blogs: [
                     {
                         date: "Jan 28, 2021",
-                        imgSrc: "/images/news/blog/1.jpg",
-                        title: "The Way Of Building",
-                        category: "interior",
-                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis..."
+                        imgSrc: "/images/news/blog/5.jpg",
+                        title: "Pulses are Heavy Hitters for UN Sustainable Development Goals",
+                        category: "",
+                        desc: "Victory will be a lot easier to achieve for the United Nations Sustainable Development Goals in a world where people grow and eat more chickpeas, lentils, beans, and other pulse crops..."
                     },
-                    {
-                        date: "Jun 08, 2021",
-                        imgSrc: "/images/news/blog/2.jpg",
-                        title: "The Arch In Modern Architecture, Art and Aesthetic More",
-                        category: "commercial",
-                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis..."
-                    },
-                    {
-                        date: "Mar 15, 2021",
-                        imgSrc: "/images/news/blog/3.jpg",
-                        title: "Spiral Stair, New Interior Design Trends 2021",
-                        category: "architecture",
-                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis..."
-                    },
-                    {
-                        date: "Nov 25, 2020",
-                        imgSrc: "/images/news/blog/4.jpg",
-                        title: "Nordic Interior Style",
-                        category: "residential",
-                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis..."
-                    },
-                    {
-                        date: "Nov 25, 2022",
-                        imgSrc: "/images/news/blog/2.jpg",
-                        title: "Nordic Interior Style",
-                        category: "residential",
-                        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis..."
-                    },
+                   
                 ]
             }
         },
