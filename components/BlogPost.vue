@@ -2,7 +2,12 @@
   <div class="news-block">
     <div class="image">
       <nuxt-link to="/blog-details">
-        <img :src="blog.imgSrc" :alt="blog.title" class="fit-image" />
+        <img
+          height="500"
+          :src="blog.imgSrc"
+          :alt="blog.title"
+          class="fit-image"
+        />
       </nuxt-link>
     </div>
     <div class="lower-content">
