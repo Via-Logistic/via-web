@@ -13,7 +13,7 @@
           <div class="single-project-wrap">
             <div class="project-thumb position-relative">
               <nuxt-link :to="project.project" class="image">
-                <img height="400" :src="project.imgSrc" :alt="project.title" />
+                <img height="350" :src="project.imgSrc" :alt="project.title" />
               </nuxt-link>
             </div>
             <div class="inner-content">
@@ -49,32 +49,32 @@ export default {
       currentItem: 6,
       projects: [
         {
-          imgSrc: "/images/gallery/11.png",
-          title: "FEED PRODUCT",
-          date: "Jan 28, 2021",
-          category: "news",
-          project: "/project-details-1",
-        },
-        {
-          imgSrc: "/images/gallery/22.png",
-          title: "OILSEEDS",
-          date: "Mar 21, 2021",
-          category: "inspiration",
-          project: "/project-details-2",
-        },
-        {
-          imgSrc: "/images/gallery/33.png",
-          title: "PULSES",
+          imgSrc: "/images/seeds/greenlentils.jpeg",
+          title: "Green Lentils",
           date: "Apr 26, 2021",
-          category: "lifestyle",
+          category: "PULSES",
           project: "/project-details-3",
         },
         {
-          imgSrc: "/images/gallery/44.png",
-          title: "EXOTIC",
-          date: "Nov 28, 2021",
-          category: "others",
-          project: "/project-details-4",
+          imgSrc: "/images/seeds/yellowlentils.jpeg",
+          title: "Yellow Lentils",
+          date: "Apr 26, 2021",
+          category: "PULSES",
+          project: "/project-details-3",
+        },
+        {
+          imgSrc: "/images/seeds/redlentils.jpeg",
+          title: "Red Lentils",
+          date: "Apr 26, 2021",
+          category: "PULSES",
+          project: "/project-details-3",
+        },
+        {
+          imgSrc: "/images/seeds/chickpeas.jpeg",
+          title: "Chickpeas",
+          date: "Apr 26, 2021",
+          category: "PULSES",
+          project: "/project-details-3",
         },
       ],
     };

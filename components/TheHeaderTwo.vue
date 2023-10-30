@@ -6,15 +6,17 @@
     <div class="header-wrapper">
       <div class="header-sticky">
         <div class="container-fluid">
-          <div class="row align-items-center" >
+          <div class="row align-items-center">
             <div class="col-lg-2 col-md-3 col-6">
               <!-- Header Logo Start -->
               <div class="header-logo">
                 <nuxt-link to="/">
                   <img
                     class="fit-image"
+                    height="80"
                     src="/images/logo/logo-white.png"
                     alt="Header Logo"
+                    style="margin-left: 30px"
                   />
                 </nuxt-link>
               </div>

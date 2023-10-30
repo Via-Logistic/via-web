@@ -13,7 +13,7 @@
           <div class="single-project-wrap">
             <div class="project-thumb position-relative">
               <nuxt-link :to="project.project" class="image">
-                <img height="400" :src="project.imgSrc" :alt="project.title" />
+                <img height="350" :src="project.imgSrc" :alt="project.title" />
               </nuxt-link>
             </div>
             <div class="inner-content">
@@ -46,35 +46,56 @@
 export default {
   data() {
     return {
-      currentItem: 6,
+      currentItem: 7,
       projects: [
         {
-          imgSrc: "/images/gallery/11.png",
-          title: "FEED PRODUCT",
+          imgSrc: "/images/seeds/sunflowerseed.jpeg",
+          title: "Chickpeas",
           date: "Jan 28, 2021",
-          category: "news",
-          project: "/project-details-1",
+          category: "OLISEEDS",
+          project: "/",
         },
         {
-          imgSrc: "/images/gallery/22.png",
-          title: "OILSEEDS",
-          date: "Mar 21, 2021",
-          category: "inspiration",
-          project: "/project-details-2",
+          imgSrc: "/images/seeds/rapeseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
         },
         {
-          imgSrc: "/images/gallery/33.png",
-          title: "PULSES",
-          date: "Apr 26, 2021",
-          category: "lifestyle",
-          project: "/project-details-3",
+          imgSrc: "/images/seeds/whitemustardseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
         },
         {
-          imgSrc: "/images/gallery/44.png",
-          title: "EXOTIC",
-          date: "Nov 28, 2021",
-          category: "others",
-          project: "/project-details-4",
+          imgSrc: "/images/seeds/yellowmustardseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
+        },
+        {
+          imgSrc: "/images/seeds/flaxseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
+        },
+        {
+          imgSrc: "/images/seeds/camelinaseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
+        },
+        {
+          imgSrc: "/images/seeds/safflowerseed.jpeg",
+          title: "Chickpeas",
+          date: "Jan 28, 2021",
+          category: "OLISEEDS",
+          project: "/",
         },
       ],
     };

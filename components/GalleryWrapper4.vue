@@ -13,7 +13,7 @@
           <div class="single-project-wrap">
             <div class="project-thumb position-relative">
               <nuxt-link :to="project.project" class="image">
-                <img height="400" :src="project.imgSrc" :alt="project.title" />
+                <img height="350" :src="project.imgSrc" :alt="project.title" />
               </nuxt-link>
             </div>
             <div class="inner-content">
@@ -49,32 +49,25 @@ export default {
       currentItem: 6,
       projects: [
         {
-          imgSrc: "/images/gallery/11.png",
-          title: "FEED PRODUCT",
+          imgSrc: "/images/seeds/yellowmillet.jpeg",
+          title: "Yellow Millet",
           date: "Jan 28, 2021",
-          category: "news",
+          category: "EXOTIC",
           project: "/project-details-1",
         },
         {
-          imgSrc: "/images/gallery/22.png",
-          title: "OILSEEDS",
+          imgSrc: "/images/seeds/redmillet.jpeg",
+          title: "Red Millet",
           date: "Mar 21, 2021",
-          category: "inspiration",
+          category: "EXOTIC",
           project: "/project-details-2",
         },
         {
-          imgSrc: "/images/gallery/33.png",
-          title: "PULSES",
+          imgSrc: "/images/seeds/corienderseeds.jpeg",
+          title: "Coriender Seeds",
           date: "Apr 26, 2021",
-          category: "lifestyle",
+          category: "EXOTIC",
           project: "/project-details-3",
-        },
-        {
-          imgSrc: "/images/gallery/44.png",
-          title: "EXOTIC",
-          date: "Nov 28, 2021",
-          category: "others",
-          project: "/project-details-4",
         },
       ],
     };

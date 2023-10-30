@@ -1,5 +1,5 @@
 
-import { defuFn } from '/Applications/MAMP/htdocs/via-web/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/yakupsari/Documents/Github/check/via-web/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

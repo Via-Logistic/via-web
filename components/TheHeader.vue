@@ -13,10 +13,10 @@
                 <nuxt-link to="/">
                   <img
                     class="fit-image"
-                    height="75px"
+                    height="150"
                     src="/images/logo/logo-white.png"
                     alt="Header Logo"
-                    style="margin-left: 73px"
+                    style="margin-left: 100px"
                   />
                 </nuxt-link>
               </div>
