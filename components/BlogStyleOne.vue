@@ -31,25 +31,25 @@ export default {
     return {
       blogs: [
         {
-          imgSrc: "/images/gallery/1-1.jpg",
+          imgSrc: "/images/gallery/11.png",
           title: "FEED PRODUCT",
           date: "Jan 28, 2021",
           category: "news",
         },
         {
-          imgSrc: "/images/gallery/1-1.jpg",
+          imgSrc: "/images/gallery/22.png",
           title: "OILSEEDS",
           date: "Mar 21, 2021",
           category: "inspiration",
         },
         {
-          imgSrc: "/images/gallery/1-1.jpg",
+          imgSrc: "/images/gallery/33.png",
           title: "PULSES",
           date: "Apr 26, 2021",
           category: "lifestyle",
         },
         {
-          imgSrc: "/images/gallery/1-1.jpg",
+          imgSrc: "/images/gallery/44.png",
           title: "EXOTIC",
           date: "Nov 28, 2021",
           category: "others",
