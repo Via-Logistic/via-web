@@ -79,7 +79,7 @@ export default {
           title: "PRODUCT AND  <br> SERVICES",
           desc: "Via Logistic LLC is engaged in the export of various types of agricultural crops and products of their processing for food, feed and technical purposes",
           btnUrl: "/project",
-          imgSrc: "/images/slider/slide-1.jpeg",
+          imgSrc: "/images/slider/slide1.jpeg",
         },
         // {
         //   id: 2,

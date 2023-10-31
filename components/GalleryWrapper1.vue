@@ -46,7 +46,7 @@
 export default {
   data() {
     return {
-      currentItem: 6,
+      currentItem: 9,
       projects: [
         {
           imgSrc: "/images/seeds/wheatbran.jpeg",

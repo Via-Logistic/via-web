@@ -19,7 +19,7 @@
             <div class="inner-content">
               <div class="sub-title">{{ project.category }}</div>
               <h4 class="title">
-                <nuxt-link to="/project-details">{{ project.title }}</nuxt-link>
+                <nuxt-link :to="project.project">{{ project.title }}</nuxt-link>
               </h4>
             </div>
           </div>

@@ -33,7 +33,7 @@
                 <!-- Language Start -->
                 <div class="language d-md-none d-lg-flex">
                   <a href="javascript:void(0)">Eng</a>
-                  <a href="javascript:void(0)"><span>Fra</span></a>
+                  <a href="javascript:void(0)"><span>Tur</span></a>
                 </div>
                 <!-- Language End -->
               </div>
@@ -46,10 +46,8 @@
                 class="mobile-menu-toggle"
                 @click="mobiletoggleClass('addClass', 'show-mobile-menu')"
               >
-              
                 <span>menu</span>
                 <button class="toggle">
-                  
                   <i class="icon-top"></i>
                   <i class="icon-middle"></i>
                   <i class="icon-bottom"></i>

@@ -9,18 +9,32 @@
       </li>
       <li class="has-children">
         <nuxt-link to="/project">Project</nuxt-link>
-      </li>
-      <!-- <li class="has-children">
-        <nuxt-link to="/blog">Blog</nuxt-link>
         <ul class="submenu">
+          <li>
+            <nuxt-link to="/project-details-1">Feed Products</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/project-details-2">Oilseeds</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/project-details-3">Pulses</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/project-details-4">Exotic</nuxt-link>
+          </li>
+        </ul>
+      </li>
+      <li class="has-children">
+        <nuxt-link to="/blog">Blog</nuxt-link>
+        <!-- <ul class="submenu">
           <li>
             <nuxt-link to="/blog">Blog</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/blog-details">Blog Details</nuxt-link>
           </li>
-        </ul>
-      </li> -->
+        </ul> -->
+      </li>
       <li>
         <nuxt-link to="/contact">Contact</nuxt-link>
       </li>
