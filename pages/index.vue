@@ -5,8 +5,8 @@
     <HeroOne />
     <AboutOne />
     <!-- <Features /> -->
-    <BlogStyleOne />
-    <!-- <GalleryOne /> -->
+    <!-- <BlogStyleOne /> -->
+    <GalleryOne />
     <CounterUp />
     <!-- <Testimonial />
     <BrandLogoCarousel /> -->
