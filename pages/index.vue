@@ -20,14 +20,14 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
           <div class="inner-content">
-            <h1 class="title">Brooklyn, <span>New York</span></h1>
+            <h1 class="title">Rostov-on-Don, <span>Rostov Region</span></h1>
             <span class="text"
-              >Your address goes here <br />
-              Your address goes here</span
+              >St. Privokzalnaya 4/1 <br />
+             </span
             >
             <span class="email"
               >Email:
-              <a href="mailto:demo@example.com">demo@example.com</a></span
+              <a href="mailto:info@vialogistic.ru">info@vialogistic.ru</a></span
             >
           </div>
         </div>
@@ -38,12 +38,13 @@
             >
             <ul class="location-list">
               <li>
-                <span>Brand Offices:</span>Office Location | Office Location |
-                Office Location | Office Location <br />
-                Office Location | Office Location
+               Via'nın genel merkezi, Rostov-on-Don, Rostov Bölgesi, St. Privokzalnaya 4/1 adresinde
+bulunmaktadır. Türkiye, Azerbaycan, İran, OEA ve Çin'deki müşterilerimiz ve tedarikçilerimiz için
+özel iletişim kanalları oluşturmuş bulunmaktayız. <br />
+                
               </li>
               <li>
-                <span>Work Hours:</span>Mon - Sat: 8.00 - 17.00, Sunday closed
+               
               </li>
             </ul>
           </div>
