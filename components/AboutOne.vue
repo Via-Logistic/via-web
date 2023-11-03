@@ -7,7 +7,10 @@
           data-aos="fade-right"
           data-aos-delay="500"
         >
-          <div class="history-image">
+          <div
+            class="history-image"
+            style="margin-top: 20%; background-color: red"
+          >
             <img class="fit-image" src="/images/history/history-1.png" alt="" />
           </div>
         </div>
@@ -22,20 +25,25 @@
               <h4 class="subtitle">Via Logistic</h4>
               <!-- <p>Turkey, Azerbaijan, Iran, OEA, China</p> -->
               <p>
-                Via, yem ve tohum sektöründe kurulduğu günden itibaren pazarın öncü ve yenilikçi
-şirketlerinden biri olmayı başarmıştır. Türkiye, Azerbaycan, İran, OEA ve Çin gibi stratejik ve
-çeşitli coğrafyalarda operasyonlarımızı sürdürüyoruz. Bu global etkimiz, bizi sektörde bir
-referans noktası yapmaktadır.<br>
-Yüksek kalite ve güvenilirlik standartlarımız, müşterilerimiz ve iş ortaklarımız için sürekli bir
-değer yaratmaktadır. Kalite kontrol süreçlerimiz ve müşteri odaklı yaklaşımımız, ürünlerimizin
-güvenilirliğini ve sürdürülebilirliğini garanti altına almaktadır.
-Ürün gamımız, yem ürünlerinden bakliyata, yağ tohumlarından egzotik ürünlere kadar oldukça
-geniş ve çeşitlidir. Bu çeşitlilik, bizi tarım ve hayvancılık sektörüne kapsamlı çözümler sunabilen,
-çok yönlü bir şirket yapmaktadır. Yüksek kaliteli hammadde kullanarak, müşteri ihtiyaçlarına özel
-çözümler geliştirmekteyiz.<br>
-Via olarak sektörde liderliğimizi, sürekli yenilikçi ürünler ve hizmetler sunarak korumaktayız.
-Çeşitli coğrafyalardaki müşteri ve iş ortaklarımıza taahhüt ettiğimiz değerleri, en üst düzeyde
-kalite ve güvenilirlikle sağlıyoruz.
+                Via, yem ve tohum sektöründe kurulduğu günden itibaren pazarın
+                öncü ve yenilikçi şirketlerinden biri olmayı başarmıştır.
+                Türkiye, Azerbaycan, İran, OEA ve Çin gibi stratejik ve çeşitli
+                coğrafyalarda operasyonlarımızı sürdürüyoruz. Bu global etkimiz,
+                bizi sektörde bir referans noktası yapmaktadır.<br />
+                Yüksek kalite ve güvenilirlik standartlarımız, müşterilerimiz ve
+                iş ortaklarımız için sürekli bir değer yaratmaktadır. Kalite
+                kontrol süreçlerimiz ve müşteri odaklı yaklaşımımız,
+                ürünlerimizin güvenilirliğini ve sürdürülebilirliğini garanti
+                altına almaktadır. Ürün gamımız, yem ürünlerinden bakliyata, yağ
+                tohumlarından egzotik ürünlere kadar oldukça geniş ve
+                çeşitlidir. Bu çeşitlilik, bizi tarım ve hayvancılık sektörüne
+                kapsamlı çözümler sunabilen, çok yönlü bir şirket yapmaktadır.
+                Yüksek kaliteli hammadde kullanarak, müşteri ihtiyaçlarına özel
+                çözümler geliştirmekteyiz.<br />
+                Via olarak sektörde liderliğimizi, sürekli yenilikçi ürünler ve
+                hizmetler sunarak korumaktayız. Çeşitli coğrafyalardaki müşteri
+                ve iş ortaklarımıza taahhüt ettiğimiz değerleri, en üst düzeyde
+                kalite ve güvenilirlikle sağlıyoruz.
               </p>
             </div>
             <div class="signature">

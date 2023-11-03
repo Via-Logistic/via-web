@@ -2,9 +2,9 @@
     4.2 History CSS
 ====================*/
 .history-wrapper {
-    padding-left: 100px;
+    padding-left: 50px;
     @media #{$desktop-device} {
-        padding-left: 60px;
+        padding-left: 30px;
     }    
     @media #{$tablet-device, $large-mobile} {
         padding-left: 0px;
