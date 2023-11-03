@@ -60,24 +60,28 @@
         >
           <swiper
             :speed="100"
-            :loop="false"
+            :loop="true"
             :navigation="swiperOptions.navigation"
             :breakpoints="swiperOptions.breakpoints"
+            :autoplay="{
+              delay: 300,
+              disableOnInteraction: false,
+            }"
           >
             <swiper-slide>
               <div class="single-project-slide">
                 <div class="thumb">
-                  <nuxt-link to="/project" class="image">
+                  <nuxt-link to="/project-details-1" class="image">
                     <img
                       class="fit-image"
-                      src="/images/gallery/feed-product.png"
+                      src="/images/gallery/11.png"
                       alt="Product"
                     />
                   </nuxt-link>
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project">FEED PRODUCT</nuxt-link>
+                    <nuxt-link to="/project-details-1">FEED PRODUCT</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -86,17 +90,17 @@
             <swiper-slide>
               <div class="single-project-slide">
                 <div class="thumb">
-                  <nuxt-link to="/project" class="image">
+                  <nuxt-link to="/project-details-2" class="image">
                     <img
                       class="fit-image"
-                      src="/images/gallery/broken-corn.jpg"
+                      src="/images/gallery/22.png"
                       alt="Product"
                     />
                   </nuxt-link>
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project">OILSEEDS</nuxt-link>
+                    <nuxt-link to="/project-details-2">OILSEEDS</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -105,17 +109,17 @@
             <swiper-slide>
               <div class="single-project-slide">
                 <div class="thumb">
-                  <nuxt-link to="/project" class="image">
+                  <nuxt-link to="/project-details-3" class="image">
                     <img
                       class="fit-image"
-                      src="/images/gallery/pulses.png"
+                      src="/images/gallery/33.png"
                       alt="Product"
                     />
                   </nuxt-link>
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project">PULSES</nuxt-link>
+                    <nuxt-link to="/project-details-3">PULSES</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -124,17 +128,17 @@
             <swiper-slide>
               <div class="single-project-slide">
                 <div class="thumb">
-                  <nuxt-link to="/project" class="image">
+                  <nuxt-link to="/project-details-4" class="image">
                     <img
                       class="fit-image"
-                      src="/images/gallery/1-4.jpg"
+                      src="/images/gallery/44.png"
                       alt="Product"
                     />
                   </nuxt-link>
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project">EXOTIC</nuxt-link>
+                    <nuxt-link to="/project-details-4">EXOTIC</nuxt-link>
                   </h3>
                 </div>
               </div>

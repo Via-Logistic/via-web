@@ -49,28 +49,28 @@ export default {
       currentItem: 6,
       projects: [
         {
-          imgSrc: "/images/gallery/11.png",
+          imgSrc: "/images/gallery/1.png",
           title: "FEED PRODUCT",
           date: "Jan 28, 2021",
           category: "news",
           project: "/project-details-1",
         },
         {
-          imgSrc: "/images/gallery/22.png",
+          imgSrc: "/images/gallery/2.png",
           title: "OILSEEDS",
           date: "Mar 21, 2021",
           category: "inspiration",
           project: "/project-details-2",
         },
         {
-          imgSrc: "/images/gallery/33.png",
+          imgSrc: "/images/gallery/3.png",
           title: "PULSES",
           date: "Apr 26, 2021",
           category: "lifestyle",
           project: "/project-details-3",
         },
         {
-          imgSrc: "/images/gallery/44.png",
+          imgSrc: "/images/gallery/4.png",
           title: "EXOTIC",
           date: "Nov 28, 2021",
           category: "others",

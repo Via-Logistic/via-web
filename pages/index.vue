@@ -5,8 +5,8 @@
     <HeroOne />
     <AboutOne />
     <!-- <Features /> -->
-    <BlogStyleOne />
-    <!-- <GalleryOne /> -->
+    <!-- <BlogStyleOne /> -->
+    <GalleryOne />
     <CounterUp />
     <!-- <Testimonial />
     <BrandLogoCarousel /> -->
@@ -21,10 +21,7 @@
         <div class="col-lg-6 col-md-6 col-12">
           <div class="inner-content">
             <h1 class="title">Rostov-on-Don, <span>Rostov Region</span></h1>
-            <span class="text"
-              >St. Privokzalnaya 4/1 <br />
-             </span
-            >
+            <span class="text">St. Privokzalnaya 4/1 <br /> </span>
             <span class="email"
               >Email:
               <a href="mailto:info@vialogistic.ru">info@vialogistic.ru</a></span
@@ -38,14 +35,12 @@
             >
             <ul class="location-list">
               <li>
-               Via'nın genel merkezi, Rostov-on-Don, Rostov Bölgesi, St. Privokzalnaya 4/1 adresinde
-bulunmaktadır. Türkiye, Azerbaycan, İran, OEA ve Çin'deki müşterilerimiz ve tedarikçilerimiz için
-özel iletişim kanalları oluşturmuş bulunmaktayız. <br />
-                
+                Via'nın genel merkezi, Rostov-on-Don, Rostov Bölgesi, St.
+                Privokzalnaya 4/1 adresinde bulunmaktadır. Türkiye, Azerbaycan,
+                İran, OEA ve Çin'deki müşterilerimiz ve tedarikçilerimiz için
+                özel iletişim kanalları oluşturmuş bulunmaktayız. <br />
               </li>
-              <li>
-               
-              </li>
+              <li></li>
             </ul>
           </div>
         </div>
