@@ -9,7 +9,7 @@
       </li>
       <li class="has-children">
         <nuxt-link to="/project">Project</nuxt-link>
-        <ul class="submenu">
+        <ul class="submenu" style="z-index: 2">
           <li>
             <nuxt-link to="/project-details-1">Feed Products</nuxt-link>
           </li>
