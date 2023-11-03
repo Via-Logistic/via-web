@@ -9,7 +9,7 @@
         <div class="logo">
           <nuxt-link to="/">
             <img
-              src="/images/logo/logo-white.png"
+              src="/images/logo/vialogofill.png"
               height="75px"
               alt="site logo"
             />

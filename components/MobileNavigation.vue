@@ -1,5 +1,16 @@
 <template>
   <div class="mobile-navigation">
+    <div class="header-logo">
+      <nuxt-link to="/">
+        <!-- <img
+          class="fit-image"
+          height="75"
+          src="/images/logo/logo-white.png"
+          alt="Header Logo"
+          style="margin-left: 100px"
+        /> -->
+      </nuxt-link>
+    </div>
     <nav class="offcanvas-navigation" id="offcanvas-navigation">
       <ul>
         <li class="menu-item-has-children">
@@ -30,14 +41,6 @@
 
         <li class="menu-item-has-children">
           <nuxt-link to="/blog">Blog</nuxt-link>
-          <ul class="sub-menu">
-            <li>
-              <nuxt-link to="/blog">Blog</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/blog-details">Blog Details</nuxt-link>
-            </li>
-          </ul>
         </li>
 
         <li>
