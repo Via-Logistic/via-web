@@ -60,7 +60,7 @@
               <a href="#" target="_blank" class="icofont-pinterest"></a>
             </li>
           </ul>
-          <div class="mt-5">
+          <div class="mt-5 lg:pt-10">
             <div class="font-bold">İletişimde Kal</div>
             <div href="tel:0123456789">Telefon Numarası : 0123456789</div>
             <div href="mailto:info@vialogistic.ru">
@@ -74,8 +74,8 @@
         <!-- Contact Info Start -->
         <div class="container lg:col-span-1">
           <div class="font-bold">Müşteri Temsilcisi</div>
-          <div class="text-sm">@musteri_temsilcisi</div>
-          <div class="mt-5">
+          <div class="flex gap-3 mt-2 text-sm">@musteri_temsilcisi</div>
+          <div class="mt-10 lg:pt-7">
             <div class="font-bold">Adres</div>
             Adres: St. Privokzalnaya 4/1, Rostov Region, Rostov-on-Don,
             344034<br />
