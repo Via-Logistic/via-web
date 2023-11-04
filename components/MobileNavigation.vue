@@ -17,10 +17,6 @@
           <nuxt-link to="/">Home</nuxt-link>
         </li>
 
-        <li>
-          <nuxt-link to="/about">About Us</nuxt-link>
-        </li>
-
         <li class="menu-item-has-children">
           <nuxt-link to="/project">Project</nuxt-link>
           <ul class="sub-menu">
@@ -37,6 +33,10 @@
               <nuxt-link to="/project-details-4">Exotic</nuxt-link>
             </li>
           </ul>
+        </li>
+
+        <li>
+          <nuxt-link to="/about">About Us</nuxt-link>
         </li>
 
         <li class="menu-item-has-children">
@@ -62,7 +62,7 @@ export default {
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
         "beforebegin",
-        "<span class='menu-expand'><i></i></span>"
+        "<span class='menu-expand'><span class='icofont-simple-down'></span>"
       );
     }
 

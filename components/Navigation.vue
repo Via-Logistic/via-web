@@ -5,11 +5,8 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li class="has-children">
-        <nuxt-link to="/about">About</nuxt-link>
-      </li>
-      <li class="has-children">
         <nuxt-link to="/project"
-          >Project <i class="icofont-simple-down"></i
+          >Products <i class="icofont-simple-down"></i
         ></nuxt-link>
         <ul class="submenu" style="z-index: 2">
           <li>
@@ -25,6 +22,9 @@
             <nuxt-link to="/project-details-4">Exotic</nuxt-link>
           </li>
         </ul>
+      </li>
+      <li class="has-children">
+        <nuxt-link to="/about">About</nuxt-link>
       </li>
       <li class="has-children">
         <nuxt-link to="/blog">Blog</nuxt-link>
