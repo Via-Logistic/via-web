@@ -12,11 +12,9 @@
               <div class="header-logo">
                 <nuxt-link to="/">
                   <img
-                    class="fit-image"
-                    height="80"
-                    src="/images/logo/logo-white.png"
+                    src="/images/logo/vialogofill.png"
                     alt="Header Logo"
-                    style="margin-left: 30px"
+                    height="200"
                   />
                 </nuxt-link>
               </div>

@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    css: ["bootstrap/dist/css/bootstrap.min.css", "@/assets/scss/style.scss"],
+    css: ["~/assets/css/main.css", "bootstrap/dist/css/bootstrap.min.css", "@/assets/scss/style.scss"],
     vite: {
         css: {
             preprocessorOptions: {
@@ -11,4 +11,10 @@ export default defineNuxtConfig({
         },
     },
     plugins: ["@/plugins/aos"],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
 })

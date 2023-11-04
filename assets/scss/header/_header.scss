@@ -24,15 +24,19 @@
 /*-- Header Logo --*/
 .header-logo {
     img {
-        width: 160px;
+        width: 100px;
+        margin-left: 30px;
         @media #{$desktop-device} {
-            width: 100%;
+            width: 100px;
+            margin-left: 50px;
         }
         @media #{$large-mobile} {
-            width: 150px;
+            width: 70px;
+            margin-left: 10px;
         }
         @media #{$extra-small-mobile} {
-            width: 120px;
+            width: 60px;
+            margin-left: 5px;
         }
     }
 }
