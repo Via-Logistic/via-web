@@ -130,8 +130,8 @@
                 <div class="thumb">
                   <nuxt-link to="/project-details-4" class="image">
                     <img
-                      class="fit-image"
-                      src="/images/gallery/44.png"
+                      class="fit-image ]"
+                      src="/images/gallery/exotic-grains.jpg"
                       alt="Product"
                     />
                   </nuxt-link>
