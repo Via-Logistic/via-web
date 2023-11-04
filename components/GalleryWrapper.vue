@@ -46,7 +46,7 @@
 export default {
   data() {
     return {
-      currentItem: 6,
+      currentItem: 4,
       projects: [
         {
           imgSrc: "/images/gallery/1.png",
