@@ -87,7 +87,7 @@
       <div class="contact-info">
         <div class="copyright">
           © 2023 <span>website</span> Made with
-          <i class="icofont-heart-alt text-green-700"></i> by
+          <i class="icofont-heart-alt text-danger"></i> by
           <a href="#">Checkup Codes</a>
         </div>
       </div>

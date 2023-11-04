@@ -1,61 +1,26 @@
 <template>
-  <div class="project-masonry-section py-10">
+  <div class="project-masonry-section">
     <div class="container">
       <div
-        class="row row-cols-lg-1 row-cols-md-1 row-cols-1 box mesonry-list mtn-30"
+        class="row row-cols-lg-2 row-cols-md-2 row-cols-1 box mesonry-list mtn-30"
       >
-        <div class="">
-          <div
-            class="col mt-30"
-            v-for="(project, index) in projectData"
-            :key="index"
-          >
-            <div
-              v-if="index % 2 == 0"
-              class="single-project-wrap grid grid-cols-2"
-            >
-              <!-- Sol taraftaki resim -->
-              <div class="project-thumb position-relative">
-                <nuxt-link :to="project.project" class="image p-5">
-                  <img
-                    height="400"
-                    :src="project.imgSrc"
-                    :alt="project.title"
-                  />
-                </nuxt-link>
-              </div>
-              <!-- Sağ taraftaki içerik -->
-              <div class="inner-content p-5 items-center my-auto">
-                <div class="sub-title">{{ project.category }}</div>
-                <h4 class="title">
-                  <nuxt-link :to="project.project">{{
-                    project.title
-                  }}</nuxt-link>
-                </h4>
-                <div>{{ project.desc }}</div>
-              </div>
+        <div
+          class="col mt-30"
+          :class="project.category"
+          v-for="(project, index) in projectData"
+          :key="index"
+        >
+          <div class="single-project-wrap">
+            <div class="project-thumb position-relative">
+              <nuxt-link :to="project.project" class="image">
+                <img height="400" :src="project.imgSrc" :alt="project.title" />
+              </nuxt-link>
             </div>
-            <div v-else class="single-project-wrap grid grid-cols-2">
-              <!-- Sağ taraftaki içerik -->
-              <div class="inner-content p-5 items-center my-auto">
-                <div class="sub-title">{{ project.category }}</div>
-                <h4 class="title">
-                  <nuxt-link :to="project.project">{{
-                    project.title
-                  }}</nuxt-link>
-                </h4>
-                <div>{{ project.desc }}</div>
-              </div>
-              <!-- Sol taraftaki resim -->
-              <div class="project-thumb position-relative">
-                <nuxt-link :to="project.project" class="image">
-                  <img
-                    height="400"
-                    :src="project.imgSrc"
-                    :alt="project.title"
-                  />
-                </nuxt-link>
-              </div>
+            <div class="inner-content">
+              <div class="sub-title">{{ project.category }}</div>
+              <h4 class="title">
+                <nuxt-link :to="project.project">{{ project.title }}</nuxt-link>
+              </h4>
             </div>
           </div>
         </div>
@@ -86,7 +51,6 @@ export default {
         {
           imgSrc: "/images/gallery/1.png",
           title: "FEED PRODUCT",
-          desc: "Bu proje, yem ürünleri konusunda yapılan çalışmaları içermektedir. Yem endüstrisine katkı sağlayan önemli bir projedir.",
           date: "Jan 28, 2021",
           category: "news",
           project: "/project-details-1",
@@ -94,7 +58,6 @@ export default {
         {
           imgSrc: "/images/gallery/2.png",
           title: "OILSEEDS",
-          desc: "Yağlı tohumlar alanında yapılan çalışmaları içeren bu proje, yağlı tohumların ekiminden üretimine kadar birçok konuyu kapsamaktadır.",
           date: "Mar 21, 2021",
           category: "inspiration",
           project: "/project-details-2",
@@ -102,7 +65,6 @@ export default {
         {
           imgSrc: "/images/gallery/3.png",
           title: "PULSES",
-          desc: "Baklagiller konusundaki bu proje, sağlıklı beslenmeye odaklanmaktadır. Baklagillerin faydalarını incelemektedir.",
           date: "Apr 26, 2021",
           category: "lifestyle",
           project: "/project-details-3",
@@ -110,7 +72,6 @@ export default {
         {
           imgSrc: "/images/gallery/4.png",
           title: "EXOTIC",
-          desc: "Exotic projesi, nadir ve egzotik ürünlerle ilgili çalışmaları içermektedir. Bu projede farklı tatlar keşfedilmektedir.",
           date: "Nov 28, 2021",
           category: "others",
           project: "/project-details-4",
