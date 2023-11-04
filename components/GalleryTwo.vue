@@ -45,12 +45,12 @@
           id="architecture"
         >
           <swiper
-            :speed="100"
+            :speed="1000"
             :loop="true"
             :navigation="swiperOptions.navigation"
             :breakpoints="swiperOptions.breakpoints"
             :autoplay="{
-              delay: 300,
+              delay: 500,
               disableOnInteraction: false,
             }"
           >
@@ -164,13 +164,13 @@ export default {
           320: {
             slidesPerView: 1,
           },
-          768: {
+          640: {
             slidesPerView: 2,
           },
-          992: {
+          960: {
             slidesPerView: 3,
           },
-          1200: {
+          1280: {
             slidesPerView: 4,
           },
         },

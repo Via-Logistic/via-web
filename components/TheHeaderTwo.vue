@@ -31,6 +31,8 @@
                 <!-- Language Start -->
                 <div class="language d-md-none d-lg-flex">
                   <a href="javascript:void(0)">Eng</a>
+                  <!-- <h1>{{ $t("hello", { name: "vue-i18n" }) }}</h1> -->
+
                   <a href="javascript:void(0)"><span>Tur</span></a>
                 </div>
                 <!-- Language End -->
