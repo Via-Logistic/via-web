@@ -8,7 +8,9 @@
         <nuxt-link to="/about">About</nuxt-link>
       </li>
       <li class="has-children">
-        <nuxt-link to="/project">Project</nuxt-link>
+        <nuxt-link to="/project"
+          >Project <i class="icofont-simple-down"></i
+        ></nuxt-link>
         <ul class="submenu" style="z-index: 2">
           <li>
             <nuxt-link to="/project-details-1">Feed Products</nuxt-link>
