@@ -14,37 +14,41 @@
     <nav class="offcanvas-navigation" id="offcanvas-navigation">
       <ul>
         <li class="menu-item-has-children">
-          <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link to="/">{{ $t("home") }}</nuxt-link>
         </li>
 
         <li class="menu-item-has-children">
-          <nuxt-link to="/project">Project</nuxt-link>
+          <nuxt-link to="/project">{{ $t("products") }}</nuxt-link>
           <ul class="sub-menu">
             <li>
-              <nuxt-link to="/project-details-1">Feed Products</nuxt-link>
+              <nuxt-link to="/project-details-1">{{
+                $t("feed_products")
+              }}</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/project-details-2">Oilseeds</nuxt-link>
+              <nuxt-link to="/project-details-2">{{
+                $t("oilseeds")
+              }}</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/project-details-3">Pulses</nuxt-link>
+              <nuxt-link to="/project-details-3">{{ $t("pulses") }}</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/project-details-4">Exotic</nuxt-link>
+              <nuxt-link to="/project-details-4">{{ $t("exotic") }}</nuxt-link>
             </li>
           </ul>
         </li>
 
         <li>
-          <nuxt-link to="/about">About Us</nuxt-link>
+          <nuxt-link to="/about">{{ $t("about") }}</nuxt-link>
         </li>
 
         <li class="menu-item-has-children">
-          <nuxt-link to="/blog">Blog</nuxt-link>
+          <nuxt-link to="/blog">{{ $t("blog") }}</nuxt-link>
         </li>
 
         <li>
-          <nuxt-link to="/contact">Contact Us</nuxt-link>
+          <nuxt-link to="/contact">{{ $t("contact") }}</nuxt-link>
         </li>
       </ul>
     </nav>

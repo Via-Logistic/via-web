@@ -29,12 +29,14 @@
                 <!-- Main Menu End -->
 
                 <!-- Language Start -->
-                <div class="language d-md-none d-lg-flex">
-                  <a href="javascript:void(0)">Eng</a>
-                  <!-- <h1>{{ $t("hello", { name: "vue-i18n" }) }}</h1> -->
-
-                  <a href="javascript:void(0)"><span>Tur</span></a>
-                </div>
+                <select
+                  class="language d-md-none d-lg-flex"
+                  v-model="$i18n.locale"
+                >
+                  <option value="en">English</option>
+                  <option value="tr"><span>Türkçe</span></option>
+                  <option value="ru"><span>Pуссу</span></option>
+                </select>
                 <!-- Language End -->
               </div>
               <!-- Main Menu Language Wrapper End -->
@@ -46,7 +48,7 @@
                 class="mobile-menu-toggle"
                 @click="mobiletoggleClass('addClass', 'show-mobile-menu')"
               >
-                <span>menu</span>
+                <span>{{ $t("menu") }}</span>
                 <button class="toggle">
                   <i class="icon-top"></i>
                   <i class="icon-middle"></i>

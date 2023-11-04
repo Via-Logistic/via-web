@@ -16,12 +16,12 @@
             <div class="row">
               <div class="col-12">
                 <div class="hero-slide-content">
-                  <h4 class="subtitle">{{ hero.subTitle }}</h4>
-                  <h2 class="title" v-html="hero.title"></h2>
-                  <p>{{ hero.desc }}</p>
-                  <nuxt-link :to="hero.btnUrl" class="btn-link"
-                    >See Project</nuxt-link
-                  >
+                  <h4 class="subtitle" v-html="$t('heros_subtitle')"></h4>
+                  <h2 class="title" v-html="$t('heros_title')"></h2>
+                  <p v-html="$t('heros_desc')"></p>
+                  <nuxt-link :to="hero.btnUrl" class="btn-link">{{
+                    $t("heros_see_more")
+                  }}</nuxt-link>
                 </div>
               </div>
             </div>
@@ -75,9 +75,9 @@ export default {
       heros: [
         {
           id: 1,
-          subTitle: "Residence",
-          title: "PRODUCT AND  <br> SERVICES",
-          desc: "Via Logistic LLC is engaged in the export of various types of agricultural crops and products of their processing for food, feed and technical purposes",
+          subTitle: this.$t("heros_subtitle"),
+          title: this.$t("heros_title"),
+          desc: this.$t("heros_desc"),
           btnUrl: "/project",
           imgSrc: "/images/slider/slide1.jpeg",
         },
