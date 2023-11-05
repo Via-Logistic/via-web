@@ -67,7 +67,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-1">FEED PRODUCT</nuxt-link>
+                    <nuxt-link to="/project-details-1">
+                      {{ $t("product_feed_product") }}</nuxt-link
+                    >
                   </h3>
                 </div>
               </div>
@@ -86,7 +88,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-2">OILSEEDS</nuxt-link>
+                    <nuxt-link to="/project-details-2">{{
+                      $t("product_oilseeds")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -105,7 +109,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-3">PULSES</nuxt-link>
+                    <nuxt-link to="/project-details-3">{{
+                      $t("product_pulses")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -124,7 +130,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-4">EXOTIC</nuxt-link>
+                    <nuxt-link to="/project-details-4">{{
+                      $t("product_exotic")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>

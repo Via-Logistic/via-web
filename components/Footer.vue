@@ -12,17 +12,17 @@
               class="text-center items-center"
             />
           </nuxt-link>
-          <div class="text-xl py-3 px-1 font-bold">Via Logistics</div>
+          <div class="text-xl py-3 px-1 font-bold">
+            Via {{ $t("footer_logistic") }}
+          </div>
           <div class="px-1">
-            Bize herhangi bir soru, öneri veya geri bildirim göndermek için
-            lütfen aşağıdaki iletişim formunu kullanın. Size en kısa sürede geri
-            dönüş yapacağız.
+            {{ $t("footer_text") }}
           </div>
           <div class="mt-5">
             <label
               for="email"
               class="block text-gray-700 text-sm font-bold mb-2"
-              >Your contact email</label
+              >{{ $t("footer_contact") }}</label
             >
             <div class="flex w-full">
               <input
@@ -34,7 +34,7 @@
               <button
                 class="w-full bg-green-900 hover:bg-green-800 text-white font-bold px-1 text-sm rounded-r-md truncate"
               >
-                Leave a Request
+                {{ $t("footer_request") }}
               </button>
             </div>
           </div>
@@ -42,7 +42,7 @@
         <!-- Footer Logo End -->
 
         <div class="container lg:col-span-1">
-          <div class="font-bold">Takip Edin</div>
+          <div class="font-bold">{{ $t("footer_follow_us") }}</div>
           <ul class="flex gap-3 mt-2">
             <li>
               <a href="#" target="_blank" class="icofont-facebook"></a>
@@ -61,8 +61,10 @@
             </li>
           </ul>
           <div class="mt-5 lg:pt-10">
-            <div class="font-bold">İletişimde Kal</div>
-            <div href="tel:0123456789">Telefon Numarası : 0123456789</div>
+            <div class="font-bold">{{ $t("footer_stay_touch") }}</div>
+            <div href="tel:0123456789">
+              {{ $t("footer_tel_no") }}: 0123456789
+            </div>
             <div href="mailto:info@vialogistic.ru">
               Email : info@vialogistic.ru
             </div>
@@ -73,12 +75,14 @@
 
         <!-- Contact Info Start -->
         <div class="container lg:col-span-1">
-          <div class="font-bold">Müşteri Temsilcisi</div>
+          <div class="font-bold">
+            {{ $t("footer_customer_representative") }}
+          </div>
           <div class="flex gap-3 mt-2 text-sm">@musteri_temsilcisi</div>
           <div class="mt-10 lg:pt-7">
-            <div class="font-bold">Adres</div>
-            Adres: St. Privokzalnaya 4/1, Rostov Region, Rostov-on-Don,
-            344034<br />
+            <div class="font-bold">{{ $t("footer_address") }}</div>
+            {{ $t("footer_address") }}: St. Privokzalnaya 4/1, Rostov Region,
+            Rostov-on-Don, 344034<br />
 
             <br />
           </div>

@@ -19,7 +19,9 @@
             <div class="inner-content">
               <div class="sub-title">{{ project.category }}</div>
               <h4 class="title">
-                <nuxt-link to="/project-details">{{ project.title }}</nuxt-link>
+                <nuxt-link to="/project-details">
+                  <p v-html="project.title"></p>
+                </nuxt-link>
               </h4>
             </div>
           </div>
@@ -50,30 +52,30 @@ export default {
       projects: [
         {
           imgSrc: "/images/seeds/greenlentils.jpeg",
-          title: "Green Lentils",
+          title: this.$t("project_pulses_green_lentils"),
           date: "Apr 26, 2021",
-          category: "PULSES",
+          category: this.$t("product_pulses"),
           project: "/project-details-3",
         },
         {
           imgSrc: "/images/seeds/yellowlentils.jpeg",
-          title: "Yellow Lentils",
+          title: this.$t("project_pulses_yellow_peas"),
           date: "Apr 26, 2021",
-          category: "PULSES",
+          category: this.$t("product_pulses"),
           project: "/project-details-3",
         },
         {
           imgSrc: "/images/seeds/redlentils.jpeg",
-          title: "Red Lentils",
+          title: this.$t("project_pulses_red_lentils"),
           date: "Apr 26, 2021",
-          category: "PULSES",
+          category: this.$t("product_pulses"),
           project: "/project-details-3",
         },
         {
           imgSrc: "/images/seeds/chickpeas.jpeg",
-          title: "Chickpeas",
+          title: this.$t("project_pulses_chickpeas"),
           date: "Apr 26, 2021",
-          category: "PULSES",
+          category: this.$t("product_pulses"),
           project: "/project-details-3",
         },
       ],

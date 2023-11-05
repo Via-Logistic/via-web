@@ -2,7 +2,10 @@
   <div class="main-container">
     <TheHeaderTwo />
     <OffCanvasMobileMenu />
-    <Breadcrumb activeText="All Project" pageTitle="PRODUCT AND SERVICES" />
+    <Breadcrumb
+      :activeText="$t('project_all')"
+      :pageTitle="$t('project_product')"
+    />
     <GalleryTwo />
     <GalleryWrapper />
     <Footer />

@@ -26,7 +26,6 @@
               </div>
               <!-- Sağ taraftaki içerik -->
               <div class="inner-content p-5 items-center my-auto">
-                <div class="sub-title">{{ project.category }}</div>
                 <h4 class="title">
                   <nuxt-link :to="project.project">{{
                     project.title
@@ -85,34 +84,30 @@ export default {
       projects: [
         {
           imgSrc: "/images/gallery/1.png",
-          title: "FEED PRODUCT",
-          desc: "Bu proje, yem ürünleri konusunda yapılan çalışmaları içermektedir. Yem endüstrisine katkı sağlayan önemli bir projedir.",
+          title: this.$t("product_feed_product"),
+          desc: this.$t("project_feed_subtitle"),
           date: "Jan 28, 2021",
-          category: "news",
           project: "/project-details-1",
         },
         {
           imgSrc: "/images/gallery/2.png",
-          title: "OILSEEDS",
-          desc: "Yağlı tohumlar alanında yapılan çalışmaları içeren bu proje, yağlı tohumların ekiminden üretimine kadar birçok konuyu kapsamaktadır.",
+          title: this.$t("product_oilseeds"),
+          desc: this.$t("project_oil_subtitle"),
           date: "Mar 21, 2021",
-          category: "inspiration",
           project: "/project-details-2",
         },
         {
           imgSrc: "/images/gallery/3.png",
-          title: "PULSES",
-          desc: "Baklagiller konusundaki bu proje, sağlıklı beslenmeye odaklanmaktadır. Baklagillerin faydalarını incelemektedir.",
+          title: this.$t("product_pulses"),
+          desc: this.$t("project_pulses_subtitle"),
           date: "Apr 26, 2021",
-          category: "lifestyle",
           project: "/project-details-3",
         },
         {
           imgSrc: "/images/gallery/4.png",
-          title: "EXOTIC",
-          desc: "Exotic projesi, nadir ve egzotik ürünlerle ilgili çalışmaları içermektedir. Bu projede farklı tatlar keşfedilmektedir.",
+          title: this.$t("product_exotic"),
+          desc: this.$t("project_exotic_subtitle"),
           date: "Nov 28, 2021",
-          category: "others",
           project: "/project-details-4",
         },
       ],

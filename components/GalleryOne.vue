@@ -9,7 +9,7 @@
         <!-- Section Title Start -->
         <div class="col-xl-3 col-md-12">
           <div class="section-title mb-0">
-            <h2 class="title">OUR PRODUCT</h2>
+            <h2 class="title" v-html="$t('product_title')"></h2>
           </div>
         </div>
         <!-- Section Title End -->
@@ -38,8 +38,9 @@
         <!-- All Project Button Start -->
         <div class="col-xl-2 col-md-4">
           <div class="all-project-btn">
-            <nuxt-link to="/project"
-              >See All Projects <i class="arrow icofont-rounded-right"></i
+            <nuxt-link to="/project">
+              {{ $t("product_see_all")
+              }}<i class="arrow icofont-rounded-right"></i
             ></nuxt-link>
           </div>
         </div>
@@ -81,7 +82,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-1">FEED PRODUCT</nuxt-link>
+                    <nuxt-link to="/project-details-1">{{
+                      $t("product_feed_product")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -100,7 +103,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-2">OILSEEDS</nuxt-link>
+                    <nuxt-link to="/project-details-2">{{
+                      $t("product_oilseeds")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -119,7 +124,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-3">PULSES</nuxt-link>
+                    <nuxt-link to="/project-details-3">{{
+                      $t("product_pulses")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
@@ -138,7 +145,9 @@
                 </div>
                 <div class="content">
                   <h3 class="title">
-                    <nuxt-link to="/project-details-4">EXOTIC</nuxt-link>
+                    <nuxt-link to="/project-details-4">{{
+                      $t("product_exotic")
+                    }}</nuxt-link>
                   </h3>
                 </div>
               </div>
