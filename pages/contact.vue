@@ -20,11 +20,19 @@
                 <div class="contact-info-boxed bg-light" data-aos="fade-up" data-aos-delay="300">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
-                            <div class="inner-content">
+                            <div class="inner-content ">
                                 <h1 class="title">Rostov-on-Don <span>Rostov Region</span></h1>
                                 <span class="text">St. Privokzalnaya 4/1,  <br> </span>
                                 <span class="email">Email: <a href="mailto:info@vialogistic.ru">info@vialogistic.ru</a></span>
-                                
+                                 <img
+                    class="mt-3"
+                    height="300"
+                    width="300"
+                    src="/images/logo/logo-white.png"
+                    alt="Header Logo"
+                    style=""
+                  />
+                                 
 
                             </div>
                             
