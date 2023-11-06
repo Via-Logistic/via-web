@@ -12,16 +12,12 @@
         >
           <div class="single-project-wrap">
             <div class="project-thumb position-relative">
-              <nuxt-link :to="project.project" class="image">
-                <img height="350" :src="project.imgSrc" :alt="project.title" />
-              </nuxt-link>
+              <img height="350" :src="project.imgSrc" :alt="project.title" />
             </div>
             <div class="inner-content">
               <div class="sub-title">{{ project.category }}</div>
               <h4 class="title">
-                <nuxt-link to="/project-details">
-                  <p v-html="project.title"></p>
-                </nuxt-link>
+                <p v-html="project.title"></p>
               </h4>
             </div>
           </div>

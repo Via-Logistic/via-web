@@ -12,14 +12,12 @@
         >
           <div class="single-project-wrap">
             <div class="project-thumb position-relative">
-              <nuxt-link :to="project.project" class="image">
-                <img height="350" :src="project.imgSrc" :alt="project.title" />
-              </nuxt-link>
+              <img height="350" :src="project.imgSrc" :alt="project.title" />
             </div>
             <div class="inner-content">
               <div class="sub-title">{{ project.category }}</div>
               <h4 class="title">
-                <nuxt-link to="/project-details">{{ project.title }}</nuxt-link>
+                {{ project.title }}
               </h4>
             </div>
           </div>
@@ -63,7 +61,7 @@ export default {
           project: "/project-details-2",
         },
         {
-          imgSrc: "/images/seeds/corienderseeds.jpeg",
+          imgSrc: "/images/seeds/corienderseeds.png",
           title: this.$t("project_exotic_coriender"),
           date: "Apr 26, 2021",
           category: this.$t("product_exotic"),
