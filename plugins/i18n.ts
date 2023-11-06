@@ -26,8 +26,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_subtitle: 'Via Logistic',
         about_text: `Via has managed to be one of the leading and innovative companies in the market since its establishment in the feed and seed sector.
         We continue our operations in strategic and diverse geographies such as Turkey, Azerbaijan, Iran, OEA and China. This global impact makes us a reference point in the sector.
-        Our high quality and reliability standards create a continuous value for our customers and business partners. Our quality control processes and customer-oriented approach guarantee the reliability and sustainability of our products. Our product range is quite wide and diverse, from feed products to pulses, from oilseeds to exotic products. This diversity makes us a versatile company that can offer comprehensive solutions to the agriculture and livestock sector. We develop solutions specific to customer needs by using high quality raw materials.
-        As Via, we maintain our leadership in the sector by constantly offering innovative products and services. We provide the values ​​we promise to our customers and business partners in various geographies with the highest level of quality and reliability.`,
+        Our high quality and reliability standards create a continuous value for our customers and business partners. Our quality control processes and customer-oriented approach guarantee the reliability and sustainability of our products. Our product range is quite wide and diverse, from feed products to pulses, from oilseeds to exotic products. This diversity makes us a versatile company that can offer comprehensive solutions to the agriculture and livestock sector. We develop solutions specific to customer needs by using high quality raw materials.`,
         product_title: 'Our Products',
         product_see_all: 'See All Products',
         product_feed_product: 'FEED PRODUCT',
@@ -103,8 +102,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_subtitle: 'Via Logistic',
         about_text: `Via, yem ve tohum sektöründe kurulduğu günden itibaren pazarın öncü ve yenilikçi şirketlerinden biri olmayı başarmıştır. Türkiye, Azerbaycan, İran, OEA ve Çin gibi stratejik ve çeşitli coğrafyalarda operasyonlarımızı sürdürüyoruz. Bu global etkimiz, bizi sektörde bir referans noktası yapmaktadır.<br />
         Yüksek kalite ve güvenilirlik standartlarımız, müşterilerimiz ve iş ortaklarımız için sürekli bir değer yaratmaktadır. Kalite kontrol süreçlerimiz ve müşteri odaklı yaklaşımımız, ürünlerimizin güvenilirliğini ve sürdürülebilirliğini garanti altına almaktadır. Ürün gamımız, yem ürünlerinden bakliyata, yağ tohumlarından egzotik ürünlere kadar oldukça geniş ve
-        çeşitlidir. Bu çeşitlilik, bizi tarım ve hayvancılık sektörüne kapsamlı çözümler sunabilen, çok yönlü bir şirket yapmaktadır.
-        Yüksek kaliteli hammadde kullanarak, müşteri ihtiyaçlarına özel çözümler geliştirmekteyiz.<br /> Via olarak sektörde liderliğimizi, sürekli yenilikçi ürünler ve hizmetler sunarak korumaktayız. Çeşitli coğrafyalardaki müşteri ve iş ortaklarımıza taahhüt ettiğimiz değerleri, en üst düzeyde kalite ve güvenilirlikle sağlıyoruz.`,
+        çeşitlidir. Bu çeşitlilik, bizi tarım ve hayvancılık sektörüne kapsamlı çözümler sunabilen, çok yönlü bir şirket yapmaktadır.`,
         product_title: 'Ürünlerimiz',
         product_see_all: 'Tüm Ürünleri Gör',
         product_feed_product: 'BESLEME ÜRÜNLERİ',
@@ -184,8 +182,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_subtitle: 'Via Logistic',
         about_text: `С момента основания Via смогла стать одной из ведущих и инновационных компаний на рынке в секторе кормов и семян.
         Мы продолжаем наши операции в стратегических и разнообразных географиях, таких как Турция, Азербайджан, Иран, ОЭА и Китай. Этот глобальный вклад делает нас ориентиром в секторе.
-        Наши высокие стандарты качества и надежности создают непрерывную ценность для наших клиентов и деловых партнеров. Наши процессы контроля качества и ориентированный на клиента подход гарантируют надежность и устойчивость наших продуктов. Наш ассортимент довольно широк и разнообразен, от кормовых продуктов до бобовых, от масличных семян до экзотических продуктов. Это разнообразие делает нас универсальной компанией, которая может предложить комплексные решения для сельскохозяйственного и животноводческого сектора. Мы разрабатываем решения, специфичные для потребностей клиентов, используя высококачественные сырьевые материалы.
-        Как Via, мы поддерживаем наше лидерство в секторе, постоянно предлагая инновационные продукты и услуги. Мы обеспечиваем ценности, которые обещаем нашим клиентам и деловым партнерам в различных географиях с высочайшим уровнем качества и надежности.`,
+        Наши высокие стандарты качества и надежности создают непрерывную ценность для наших клиентов и деловых партнеров. Наши процессы контроля качества и ориентированный на клиента подход гарантируют надежность и устойчивость наших продуктов. Наш ассортимент довольно широк и разнообразен, от кормовых продуктов до бобовых, от масличных семян до экзотических продуктов. Это разнообразие делает нас универсальной компанией, которая может предложить комплексные решения для сельскохозяйственного и животноводческого сектора. Мы разрабатываем решения, специфичные для потребностей клиентов, используя высококачественные сырьевые материалы.`,
         product_title: 'Наши Продукты',
         product_see_all: 'Посмотреть Все Продукты',
         product_feed_product: 'КОРМОВЫЕ ПРОДУКТЫ',
