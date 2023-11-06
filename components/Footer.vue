@@ -1,18 +1,18 @@
 <template>
   <footer class="section-padding-top bg-light overflow-hidden">
     <div class="container">
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 place-items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
         <!-- Footer Logo Start -->
         <div class="container lg:col-span-2 justify-center pb-16">
           <nuxt-link to="/" class="flex">
             <img
               src="/images/logo/vialogofill.png"
               alt="Logo Black"
-              width="200"
+              width="120"
               class="text-center items-center"
             />
           </nuxt-link>
-          <div class="text-xl py-3 px-1 font-bold">
+          <div class="text-2xl py-3 px-1 font-bold">
             Via {{ $t("footer_logistic") }}
           </div>
           <div class="px-1">
@@ -42,25 +42,27 @@
         <!-- Footer Logo End -->
 
         <div class="container lg:col-span-1">
-          <div class="font-bold">{{ $t("footer_follow_us") }}</div>
-          <ul class="flex gap-3 mt-2">
-            <li>
-              <a href="#" target="_blank" class="icofont-facebook"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="icofont-twitter"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="icofont-instagram"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="icofont-linkedin"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" class="icofont-pinterest"></a>
-            </li>
-          </ul>
-          <div class="mt-5 lg:pt-10">
+          <div class="h-36 lg:mt-[50%]">
+            <div class="font-bold">{{ $t("footer_follow_us") }}</div>
+            <ul class="flex gap-3 mt-2">
+              <li>
+                <a href="#" target="_blank" class="icofont-facebook"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="icofont-twitter"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="icofont-instagram"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="icofont-linkedin"></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" class="icofont-pinterest"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="">
             <div class="font-bold">{{ $t("footer_stay_touch") }}</div>
             <div href="tel:0123456789">
               {{ $t("footer_tel_no") }}: 0123456789
@@ -75,11 +77,13 @@
 
         <!-- Contact Info Start -->
         <div class="container lg:col-span-1">
-          <div class="font-bold">
-            {{ $t("footer_customer_representative") }}
+          <div class="h-36 lg:mt-[50%]">
+            <div class="font-bold">
+              {{ $t("footer_customer_representative") }}
+            </div>
+            <div class="flex gap-3 mt-2 text-sm">@musteri_temsilcisi</div>
           </div>
-          <div class="flex gap-3 mt-2 text-sm">@musteri_temsilcisi</div>
-          <div class="mt-10 lg:pt-7">
+          <div class="">
             <div class="font-bold">{{ $t("footer_address") }}</div>
             {{ $t("footer_address") }}: St. Privokzalnaya 4/1, Rostov Region,
             Rostov-on-Don, 344034<br />
