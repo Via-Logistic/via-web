@@ -123,7 +123,7 @@
                   <nuxt-link to="/project-details-4" class="image">
                     <img
                       class="fit-image"
-                      src="/images/gallery/44.png"
+                      src="/images/gallery/exotic-grains.jpg"
                       alt="Product"
                     />
                   </nuxt-link>
