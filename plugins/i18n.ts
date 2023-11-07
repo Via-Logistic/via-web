@@ -79,6 +79,19 @@ export default defineNuxtPlugin(({ vueApp }) => {
         project_exotic_yellow_millet: 'Yellow Millet',
         project_exotic_red_millet: 'Red Millet',
         project_exotic_coriender: 'Coriender Seeds',
+        about_our_vision: 'OUR VISION AND MISSION',
+        about_description: 'We create value for our customers and suppliers by producing sustainably in countries such as Turkey, Azerbaijan, Iran, OEA and China. <br/> We continue to lead the sector with our product quality, wide product range and effective logistics infrastructure.',
+        about_why_choose_us: 'WHY CHOOSE US',
+        about_services_title1: 'Quality and Reliability',
+        about_services_title2: 'Flexible and Customized Solutions',
+        about_services_title3: 'On Time and Safe Delivery',
+        about_services_title4: 'Customer Satisfaction Oriented Service',
+        about_services_desc1: 'We promise reliability and excellence to our customers.',
+        about_services_desc2: 'We offer customized logistics solutions',
+        about_services_desc3: 'We ensure that they receive their products on time',
+        about_services_desc4: 'We would be happy to be with you to solve your problems.',
+
+
 
 
       },
@@ -155,10 +168,17 @@ export default defineNuxtPlugin(({ vueApp }) => {
         project_exotic_yellow_millet: 'Sarı Darı',
         project_exotic_red_millet: 'Kırmızı Darı',
         project_exotic_coriender: 'Kişniş Tohumu',
-
-
-
-
+        about_our_vision: 'VIZYONUMUZ VE MISYONUMUZ',
+        about_description: ' Türkiye, Azerbaycan, İran, OEA ve Çin gibi ülkelerde sürdürülebilir üretim yaparak, müşterilerimiz ve tedarikçilerimiz için değer yaratmaktayız. <br/> Ürün kalitemiz, geniş ürün gamımız ve etkin lojistik altyapımız ile sektöre öncülük etmeyi sürdürüyoruz.',
+        about_why_choose_us: 'NEDEN BİZİ SEÇMELİSİNİZ',
+        about_services_title1: 'Kalite ve Güvenilirlik',
+        about_services_title2: 'Esnek ve Özelleştirilmiş Çözümler',
+        about_services_title3: 'Zamanında ve Güvenli Teslimat',
+        about_services_title4: 'Müşteri Memnuniyeti Odaklı Hizmet',
+        about_services_desc1: 'Müşterilerimize güvenilirlik ve mükemmellik sözü veriyoruz.',
+        about_services_desc2: 'Özelleştirilmiş lojistik çözümleri sunuyoruz.',
+        about_services_desc3: 'Ürünlerini zamanında teslim etmelerini sağlıyoruz.',
+        about_services_desc4: 'Sorunlarınızı çözmek için yanınızda olmaktan mutluluk duyarız.',
 
 
       },
@@ -235,6 +255,17 @@ export default defineNuxtPlugin(({ vueApp }) => {
         project_exotic_yellow_millet: 'Желтый Просо',
         project_exotic_red_millet: 'Красный Просо',
         project_exotic_coriender: 'Кориандр',
+        about_our_vision: 'НАША ВИДЕНИЕ И МИССИЯ',
+        about_description: 'Мы создаем ценность для наших клиентов и поставщиков, производя устойчиво в странах, таких как Турция, Азербайджан, Иран, ОЭА и Китай. <br/> Мы продолжаем лидировать в секторе благодаря качеству продукции, широкому ассортименту и эффективной логистической инфраструктуре.',
+        about_why_choose_us: 'ПОЧЕМУ ВЫБИРАТЬ НАС',
+        about_services_title1: 'Качество и Надежность',
+        about_services_title2: 'Гибкие и Настраиваемые Решения',
+        about_services_title3: 'Своевременная и Безопасная Доставка',
+        about_services_title4: 'Ориентированность на Удовлетворение Клиентов',
+        about_services_desc1: 'Мы обещаем надежность и превосходство нашим клиентам.',
+        about_services_desc2: 'Мы предлагаем индивидуальные логистические решения',
+        about_services_desc3: 'Мы обеспечиваем своевременную доставку',
+        about_services_desc4: 'Мы будем рады быть с вами, чтобы решить ваши проблемы.',
 
       }
     }
