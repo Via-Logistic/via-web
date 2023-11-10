@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12">
           <!-- Section Title Start -->
-          <div class="section-title" data-aos="fade-up" data-aos-delay="300">
+          <div class="section-title">
             <h2 class="title">{{ $t("about_why_choose_us") }}</h2>
           </div>
           <!-- Section Title End -->
@@ -14,8 +14,6 @@
           <div class="service-inner-container">
             <div
               class="service-block"
-              data-aos="fade-up"
-              data-aos-delay="300"
               v-for="(service, index) in services"
               :key="index"
             >

@@ -6,7 +6,6 @@
       :activeText="$t('project_all')"
       :pageTitle="$t('project_product')"
     />
-    <GalleryTwo />
     <GalleryWrapper />
     <Footer />
   </div>

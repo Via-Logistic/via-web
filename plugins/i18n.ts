@@ -90,6 +90,8 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_services_desc2: 'We offer customized logistics solutions',
         about_services_desc3: 'We ensure that they receive their products on time',
         about_services_desc4: 'We would be happy to be with you to solve your problems.',
+        blog_all: "All Blogs",
+        blog_our: "Our Blogs",
 
 
 
@@ -179,6 +181,8 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_services_desc2: 'Özelleştirilmiş lojistik çözümleri sunuyoruz.',
         about_services_desc3: 'Ürünlerini zamanında teslim etmelerini sağlıyoruz.',
         about_services_desc4: 'Sorunlarınızı çözmek için yanınızda olmaktan mutluluk duyarız.',
+        blog_all: "Tüm Bloglar",
+        blog_our: "Bloglarımız",
 
 
       },
@@ -266,6 +270,8 @@ export default defineNuxtPlugin(({ vueApp }) => {
         about_services_desc2: 'Мы предлагаем индивидуальные логистические решения',
         about_services_desc3: 'Мы обеспечиваем своевременную доставку',
         about_services_desc4: 'Мы будем рады быть с вами, чтобы решить ваши проблемы.',
+        blog_all: "Все Блоги",
+        blog_our: "Наши Блоги",
 
       }
     }

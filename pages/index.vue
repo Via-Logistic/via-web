@@ -10,11 +10,7 @@
     <BrandLogoCarousel /> -->
     <VideoCallToAction />
     <!-- Form Boxed Start -->
-    <div
-      class="contact-info-boxed bg-light m-5"
-      data-aos="fade-up"
-      data-aos-delay="300"
-    >
+    <div class="contact-info-boxed bg-light m-5">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
           <div class="inner-content">

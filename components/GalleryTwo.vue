@@ -50,7 +50,7 @@
             :navigation="swiperOptions.navigation"
             :breakpoints="swiperOptions.breakpoints"
             :autoplay="{
-              delay: 500,
+              delay: 240,
               disableOnInteraction: false,
             }"
           >
@@ -169,16 +169,16 @@ export default {
         },
 
         breakpoints: {
-          320: {
+          240: {
             slidesPerView: 1,
           },
-          640: {
+          480: {
             slidesPerView: 2,
           },
-          960: {
+          720: {
             slidesPerView: 3,
           },
-          1280: {
+          960: {
             slidesPerView: 4,
           },
         },

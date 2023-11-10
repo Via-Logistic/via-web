@@ -6,8 +6,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="content" data-aos="fade-up" data-aos-delay="300">
-            <h1 class="title">{{ $t("about") }}</h1>
+          <div class="content">
+            <h1
+              class="text-white w-1/2 text-[100px] flex mx-auto items-center justify-center"
+            >
+              {{ $t("about") }}
+            </h1>
           </div>
         </div>
       </div>

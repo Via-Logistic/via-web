@@ -20,11 +20,7 @@
     <div class="contact-content-wrapper">
       <div class="container">
         <!-- Contact Info Boxed Start -->
-        <div
-          class="contact-info-boxed bg-light"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
+        <div class="contact-info-boxed bg-light">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
               <div class="inner-content">
@@ -73,11 +69,7 @@
         <!-- Contact Info Boxed End -->
 
         <!-- Form Boxed Start -->
-        <div
-          class="form-boxed bg-light mt-50"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
+        <div class="form-boxed bg-light mt-50">
           <div class="section-title text-center">
             <h2 class="title">Have A Question? Contact Us</h2>
           </div>

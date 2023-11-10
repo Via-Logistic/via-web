@@ -12,7 +12,7 @@
           >
             <div
               v-if="index % 2 == 0"
-              class="single-project-wrap grid grid-cols-2"
+              class="single-project-wrap lg:grid hidden grid-cols-2"
             >
               <!-- Sol taraftaki resim -->
               <div class="project-thumb position-relative">
@@ -34,7 +34,7 @@
                 <div>{{ project.desc }}</div>
               </div>
             </div>
-            <div v-else class="single-project-wrap grid grid-cols-2">
+            <div v-else class="single-project-wrap hidden lg:grid grid-cols-2">
               <!-- Sağ taraftaki içerik -->
               <div class="inner-content p-5 items-center my-auto">
                 <div class="sub-title">{{ project.category }}</div>
@@ -54,6 +54,29 @@
                     :alt="project.title"
                   />
                 </nuxt-link>
+              </div>
+            </div>
+            <div class="block lg:hidden">
+              <div class="single-project-wrap grid grid-cols-1">
+                <!-- Sol taraftaki resim -->
+                <div class="project-thumb position-relative">
+                  <nuxt-link :to="project.project" class="image p-5">
+                    <img
+                      height="400"
+                      :src="project.imgSrc"
+                      :alt="project.title"
+                    />
+                  </nuxt-link>
+                </div>
+                <!-- Sağ taraftaki içerik -->
+                <div class="inner-content px-5 py-1 mb-5 items-center my-auto">
+                  <h4 class="title">
+                    <nuxt-link :to="project.project">{{
+                      project.title
+                    }}</nuxt-link>
+                  </h4>
+                  <div>{{ project.desc }}</div>
+                </div>
               </div>
             </div>
           </div>

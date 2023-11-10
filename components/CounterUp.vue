@@ -5,7 +5,6 @@
         <div class="row mtn-30">
           <div
             class="col-sm-4 col-6 mt-30"
-            data-aos="fade-up"
             v-for="(counter, index) in counterUpContent"
             :key="index"
           >

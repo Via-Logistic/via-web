@@ -7,12 +7,7 @@
             <!-- <h4 class="subtitle" data-aos="fade-up" data-aos-delay="300">
               how we work
             </h4> -->
-            <h3
-              style="color: white"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              v-html="$t('video_call_title')"
-            ></h3>
+            <h3 style="color: white" v-html="$t('video_call_title')"></h3>
             <!-- <p data-aos="fade-up" data-aos-delay="300">
              
             </p> -->

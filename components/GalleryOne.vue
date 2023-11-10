@@ -1,11 +1,7 @@
 <template>
   <div class="section bg-light">
     <div class="row container mx-auto">
-      <div
-        class="row align-items-center mb-5 pt-5"
-        data-aos="fade-up"
-        data-aos-delay="300"
-      >
+      <div class="row align-items-center mb-5 pt-5">
         <!-- Section Title Start -->
         <div class="col-xl-3 col-md-12">
           <div class="section-title mb-0">
@@ -49,11 +45,7 @@
     </div>
     <div class="container-auto">
       <!-- Tab Content Start -->
-      <div
-        class="tab-content swiper-arrow-hover"
-        data-aos="fade-up"
-        data-aos-delay="400"
-      >
+      <div class="tab-content swiper-arrow-hover">
         <div
           class="tab-pane fade"
           :class="{ 'active show': isActive('architecture') }"
@@ -65,7 +57,7 @@
             :navigation="swiperOptions.navigation"
             :breakpoints="swiperOptions.breakpoints"
             :autoplay="{
-              delay: 500,
+              delay: 240,
               disableOnInteraction: false,
             }"
           >
@@ -184,16 +176,16 @@ export default {
         },
 
         breakpoints: {
-          320: {
+          240: {
             slidesPerView: 1,
           },
-          640: {
+          480: {
             slidesPerView: 2,
           },
-          960: {
+          720: {
             slidesPerView: 3,
           },
-          1280: {
+          960: {
             slidesPerView: 4,
           },
         },

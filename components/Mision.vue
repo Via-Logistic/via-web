@@ -4,16 +4,11 @@
       <div class="row">
         <div class="col-12">
           <div class="content">
-            <h4 class="subtitle mb-5" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="subtitle mb-5">
               {{ $t("about_our_vision") }}
             </h4>
-            <h3
-              style="color: white"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              v-html="$t('about_description')"
-            ></h3>
-            <p data-aos="fade-up" data-aos-delay="300"></p>
+            <h3 style="color: white" v-html="$t('about_description')"></h3>
+            <p></p>
             <!-- <a href="#" class="pdf-file" data-aos="fade-up" data-aos-delay="300"><span class="icon icofont-file-pdf"></span>Download Offer [.PDF]</a> -->
 
             <!-- <a
